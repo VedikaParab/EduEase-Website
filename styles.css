@@ -1,0 +1,70 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #FFD4E6;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering container */
+.container {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+/* White card box */
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+/* Logo Image */
+.icon {
+    width: 200px;
+    height: auto;
+}
+
+/* Heading Style */
+h1 {
+    color: #BD5488;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Paragraph Text */
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Make the card responsive */
+@media (max-width: 500px) {
+    .card {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
